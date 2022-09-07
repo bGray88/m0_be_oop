@@ -4,8 +4,8 @@
 # it should have a method called "say" that returns whatever string is passed in, with "*~*" at the beginning and end of the string
 
 class Unicorn
-    def initialize(hungry)
-        @hungry = hungry
+    def initialize(name)
+        @name = name
         @color = "silver"
     end
 
@@ -14,7 +14,7 @@ class Unicorn
     end
 end
 
-pegasus = Unicorn.new("no")
+pegasus = Unicorn.new("Pegasus")
 p pegasus
 p pegasus.say("Come frolic with me!")
 
